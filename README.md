@@ -4,12 +4,9 @@ Given three databases of data, redesign and improve the schema.
 Download starter code and seed the files using the following command command in your directory: psql < file.sql
 
 *Postgresql must be running for this to work.
-To check if postgresql is running, use the command:
-- sudo service postgresql status
-To start postgresql, use the command:
-- sudo service postgresql start
-To stop postgresql, use the command:
-- sudo service postgresql stop
+- To check if postgresql is running, use the command: sudo service postgresql status
+- To start postgresql, use the command: sudo service postgresql start
+- To stop postgresql, use the command: sudo service postgresql stop
 
 # OuterSpaceSQL
 Practice Query:
