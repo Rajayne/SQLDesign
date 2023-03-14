@@ -118,7 +118,7 @@ CREATE TABLE tickets
   id SERIAL PRIMARY KEY,
   flight INT REFERENCES flights,
   seat TEXT NOT NULL,
-  passenger INT REFERENCES passengers,
+  passenger INT REFERENCES passengers
 );
 
 INSERT INTO tickets
